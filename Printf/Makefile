@@ -6,7 +6,7 @@
 #*   By: kcosta <kcosta@student.42.fr>              +#+  +:+       +#+        *#
 #*                                                +#+#+#+#+#+   +#+           *#
 #*   Created: 2016/11/12 17:12:33 by kcosta            #+#    #+#             *#
-#*   Updated: 2016/11/12 17:44:10 by kcosta           ###   ########.fr       *#
+#*   Updated: 2016/11/12 17:54:56 by kcosta           ###   ########.fr       *#
 #*                                                                            *#
 #* ************************************************************************** *#
 
@@ -15,7 +15,9 @@ CC = gcc
 FLAGS = -Wall -Wextra -Werror
 OBJS = $(SRCS:%.c=%.o)
 SRCSPATH = srcs/
-SRCS = ft_printf.c
+SRCS = ft_printf.c \
+	   ft_putchar.c \
+	   ft_putnbr.c
 
 
 all: $(NAME)
