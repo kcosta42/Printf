@@ -6,7 +6,7 @@
 #*   By: kcosta <kcosta@student.42.fr>              +#+  +:+       +#+        *#
 #*                                                +#+#+#+#+#+   +#+           *#
 #*   Created: 2016/11/12 17:12:33 by kcosta            #+#    #+#             *#
-#*   Updated: 2016/11/12 17:54:56 by kcosta           ###   ########.fr       *#
+#*   Updated: 2016/11/13 15:05:06 by kcosta           ###   ########.fr       *#
 #*                                                                            *#
 #* ************************************************************************** *#
 
@@ -17,7 +17,9 @@ OBJS = $(SRCS:%.c=%.o)
 SRCSPATH = srcs/
 SRCS = ft_printf.c \
 	   ft_putchar.c \
-	   ft_putnbr.c
+	   ft_putnbr.c \
+	   ft_putstr.c \
+	   ft_dcount.c
 
 
 all: $(NAME)
